@@ -2,13 +2,13 @@
 
 - `assets/characters/front/`：正式角色与技能变体贴图。
 - `assets/characters/side/`：正式侧视图，保留供后续开发使用。
-- `assets/characters/review-ave-mujica/originals/`、`assets/characters/unused/`：保留的历史侧视图。
+- `assets/characters/unused/`：保留的历史侧视图。
 - `assets/characters/manifest.json`：素材校验所需处理记录，source 字段为历史来源名称。
 - `assets/obstacles/`、`assets/effects/`：正式障碍物与技能特效。
 - `assets/band-logos/`：队标及来源记录。
 - `assets/audio/`：音频，见 [音频说明](AUDIO.md)。
 
-绘图参考、旧版正面备份及生成过程说明已清理。`assets/source-backup.zip` 暂保留为原始素材备份。
+绘图参考、失败立绘、旧版正面备份、原始素材压缩备份及生成过程说明已清理。正式侧视图与 unused 中的历史侧视图继续保留。
 
 ## 修改素材
 
