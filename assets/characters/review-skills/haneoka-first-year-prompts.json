@@ -1,0 +1,58 @@
+{
+  "tool": "image_gen.imagegen",
+  "date": "2026-10-29",
+  "shared": "Image 1 is edit target; other images are clothing references only. Preserve character identity, pose, PICO linework, full body and transparent background.",
+  "tasks": [
+    {
+      "id": "lock-front",
+      "target": "front/ras-lock.png",
+      "references": [
+        "front/rose-ako.png",
+        "front/mygo-anon.png"
+      ],
+      "prompt": "Rokka (LOCK), front-facing. Replace her entire casual cream floral dress with the EXACT Haneoka FIRST-YEAR uniform of references: light gray blazer with white piping and gold buttons, white shirt, DARK GREEN necktie with GOLD diagonal stripes, DARK GREEN pleated skirt with GOLD plaid lines, dark knee socks and brown loafers. Preserve her blue bob, side braid and flower hair tie, black glasses, green eyes, expression, pose and chibi proportions."
+    },
+    {
+      "id": "lock-side",
+      "target": "side/ras-lock.png",
+      "references": [
+        "side/mygo-anon.png",
+        "front/rose-ako.png"
+      ],
+      "prompt": "Rokka (LOCK), LEFT-FACING SIDE PROFILE. Replace her entire casual cream floral dress with the EXACT Haneoka FIRST-YEAR uniform of references: light gray blazer with white piping and gold buttons, white shirt, DARK GREEN necktie with GOLD diagonal stripes, DARK GREEN pleated skirt with GOLD plaid lines, dark knee socks and brown loafers. Preserve the LEFT-facing profile, blue bob, glasses, green eye, hairstyle, expression and chibi proportions."
+    },
+    {
+      "id": "asuka-front",
+      "target": "front/toyama-asuka.png",
+      "references": [
+        "front/rose-ako.png",
+        "front/mygo-anon.png"
+      ],
+      "prompt": "Asuka, front-facing. Correct ONLY her school uniform to the EXACT Haneoka FIRST-YEAR uniform of references: keep light gray blazer with white piping and gold buttons; replace the brown striped tie with DARK GREEN tie and GOLD diagonal stripes, replace brown plaid skirt with DARK GREEN pleated skirt with GOLD plaid grid. Preserve her brown hair, two silver hairpins, purple eyes, face, expression, pose, socks, shoes, and chibi proportions."
+    },
+    {
+      "id": "sakiko-front",
+      "target": "front/am-sakiko.png",
+      "references": [
+        "front/rose-ako.png",
+        "front/mygo-anon.png"
+      ],
+      "prompt": "Sakiko, front-facing. Correct ONLY her school uniform to the EXACT Haneoka FIRST-YEAR uniform of references: keep light gray blazer with white piping and gold buttons; replace blue striped tie with DARK GREEN tie and GOLD diagonal stripes, replace blue plaid skirt with DARK GREEN pleated skirt with GOLD plaid grid. Preserve long light blue hair and dark ribbons, golden eyes, face, expression, pose, socks, shoes, and chibi proportions."
+    },
+    {
+      "id": "sakiko-side",
+      "target": "side/am-sakiko.png",
+      "references": [
+        "side/mygo-anon.png",
+        "front/rose-ako.png"
+      ],
+      "prompt": "Sakiko, LEFT-FACING SIDE PROFILE. Correct ONLY her school uniform to the EXACT Haneoka FIRST-YEAR uniform of references: keep light gray blazer with white piping; replace blue tie with DARK GREEN tie and GOLD diagonal stripes, replace blue plaid skirt with DARK GREEN pleated skirt with GOLD plaid grid. Preserve left-facing profile, long light blue hair and dark ribbons, golden eye, face, pose, socks, shoes, and chibi proportions."
+    },
+    {
+      "id": "pareo-blue",
+      "target": "front/ras-pareo-blue-white.png",
+      "references": [],
+      "prompt": "PAREO front-facing. Recolor ONLY the existing PALE BLUE HAIR regions to Hina Hikawa's brighter cyan-blue #55DDEE. Center bangs must be this cyan-blue; white hair strips remain WHITE. Keep shading and highlights. Preserve ALL non-hair details, face, eyes, ribbons, clothes, pose, silhouette and proportions exactly. Do not change outfit."
+    }
+  ]
+}

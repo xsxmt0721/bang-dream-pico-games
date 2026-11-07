@@ -1,0 +1,97 @@
+{
+  "seed": 20261027,
+  "rolls": 100000,
+  "counts": {
+    "cornet": 39888,
+    "horizontalBaguette": 15241,
+    "verticalBaguette": 14871,
+    "parfait": 9907,
+    "none": 20093
+  },
+  "rates": {
+    "cornet": "39.888%",
+    "horizontalBaguette": "15.241%",
+    "verticalBaguette": "14.871%",
+    "parfait": "9.907%",
+    "none": "20.093%"
+  },
+  "landingScenarios": 3000,
+  "landed": {
+    "cornet": 1155,
+    "horizontalBaguette": 444,
+    "verticalBaguette": 515,
+    "parfait": 328,
+    "none": 558
+  },
+  "boundaries": [
+    {
+      "roll": 0.399999,
+      "type": "cornet",
+      "x": 7,
+      "dimensions": [
+        1,
+        1
+      ]
+    },
+    {
+      "roll": 0.4,
+      "type": "horizontalBaguette",
+      "x": 6,
+      "dimensions": [
+        2,
+        1
+      ]
+    },
+    {
+      "roll": 0.549999,
+      "type": "horizontalBaguette",
+      "x": 6,
+      "dimensions": [
+        2,
+        1
+      ]
+    },
+    {
+      "roll": 0.55,
+      "type": "verticalBaguette",
+      "x": 7,
+      "dimensions": [
+        1,
+        2
+      ]
+    },
+    {
+      "roll": 0.699999,
+      "type": "verticalBaguette",
+      "x": 7,
+      "dimensions": [
+        1,
+        2
+      ]
+    },
+    {
+      "roll": 0.7,
+      "type": "parfait",
+      "x": 7,
+      "dimensions": [
+        1,
+        2
+      ]
+    },
+    {
+      "roll": 0.799999,
+      "type": "parfait",
+      "x": 7,
+      "dimensions": [
+        1,
+        2
+      ]
+    },
+    {
+      "roll": 0.8,
+      "type": "none",
+      "dimensions": null
+    }
+  ],
+  "overlapOrOutOfBoundsFailures": 0
+}

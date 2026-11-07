@@ -1,0 +1,7 @@
+{
+  "name": "pico-encore",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline BanG Dream character falling-block puzzle",
+  "scripts": { "test": "node --test tests/engine.test.js tests/new-skills.test.js tests/audio.test.js tests/band-pools.test.js tests/expanded-skills.test.js tests/bonds.test.js tests/shopping-skills.test.js", "start": "node scripts/serve.js" }
+}

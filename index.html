@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17152d"><title>pico 消消乐</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="src/bonds.js"></script><script defer src="src/roster.js"></script><script defer src="src/engine.js"></script><script defer src="src/audio.js"></script><script defer src="src/achievements.js"></script><script defer src="src/game.js"></script>
+</head>
+<body>
+  <div class="venue" aria-hidden="true"><div class="truss"></div><div class="beam beam-pink"></div><div class="beam beam-blue"></div><div class="speaker speaker-left"></div><div class="speaker speaker-right"></div><div class="stage-floor"></div></div>
+  <div class="app">
+
+    <main class="game-layout">
+      <aside class="left-column">
+        <h1 class="compact-title">pico <span>消消乐</span></h1>
+        <details class="band-panel" id="achievements"></details><section class="band-panel"><div class="section-title"><h2>ON STAGE</h2><span id="band-count">5 BANDS</span></div><p class="panel-description">集齐同乐队成员并连通即可消除！</p><div id="band-list"></div><p class="legend">● 已登场　○ 待登场　◇ 正在下落</p></section>
+        <div class="stage-top"><span><i id="status-dot"></i><b id="stage-status">READY TO PLAY</b></span><span id="board-size">8 × 11</span></div>
+      </aside>
+      <section class="stage-section" aria-label="游戏棋盘">
+        <div class="board-frame"><div class="board-shell" id="board-shell">
+          <canvas id="board" width="480" height="660" tabindex="0" aria-label="8 列 11 行游戏棋盘：方向键移动，Q / E 旋转，空格直落，P 暂停。"></canvas>
+          <div class="landing-notices"><div id="clear-logos" class="clear-logos" aria-live="polite" hidden></div><div id="bond-score" aria-live="polite" hidden></div></div>
+          <div id="chain-banner" class="chain-banner" aria-live="polite"></div>
+          <div class="overlay" id="overlay"><div class="overlay-content"><span class="overlay-symbol">✦</span><p class="eyebrow" id="overlay-kicker">THE STAGE IS YOURS</p><h2 id="overlay-title">准备好登场了吗？</h2><p id="overlay-description">连接同一乐队的全部成员，<br>让舞台响起连锁的安可！</p><button class="primary" id="overlay-action">开始演出 ▶</button><p id="overlay-footnote">← → 移动 · Q / E 旋转 · 空格直落</p></div></div>
+        </div></div>
+      </section>
+      <aside class="right-column">
+        <div class="rail-actions"><button class="icon-button" id="sound" aria-label="打开音效">♫ <span>OFF</span></button><button class="secondary" id="settings-button">⚙ 游戏设置</button><button id="pause" class="text-button" disabled>Ⅱ 暂停</button><button type="button" class="secondary" id="restart">重新对局</button></div>
+        <section class="paper-panel next-panel"><h2 class="arcade-title">NEXT!</h2><div id="next-character" class="next-character"></div><p class="next-note" id="pool-note">各队独立抽取 · 消除后检查返池</p></section>
+        <section class="paper-panel score-panel"><h2 class="arcade-title">SCORE</h2><div class="score-line"><span>得　分</span><strong id="score">0000000</strong></div><div class="score-line best-line"><span>最高分</span><strong id="best">0000000</strong></div><div class="combo-box"><span>MAX<br>COMBO</span><strong id="chain">000</strong></div><div class="clear-total">已完成演出 <b id="cleared">0</b> 组 · 清除障碍 <b id="obstacles-cleared">0</b></div></section>
+        <section class="paper-panel controls-panel"><h2 class="arcade-title">KEYS <span>舞台指南</span></h2><div class="key-row"><span>移动 / 加速</span><div><kbd>←</kbd> <kbd>↓</kbd> <kbd>→</kbd></div></div><div class="key-row"><span>旋转 / 直落</span><div><kbd>Q / E</kbd> <kbd>SPACE</kbd></div></div><div class="key-row"><span>暂停 / 继续</span><kbd>P</kbd></div><p>Q 顺时针、E 逆时针围绕头部旋转；心每按 W 上升一格。纱夜技能开启时可用 W 原地悬浮；日菜可用 W 尝试发射光波。也支持 A / S / D 和触屏按钮。</p><details><summary>消除规则与计分</summary><p>五人乐队连通块须包含 1–5 号五位不同成员才会消除；满足条件后整块消除，包含重复成员。仅有重复成员、未集齐五人不会消除；斜角不算连接。消除后悬空角色整体下落，可继续连锁。</p><p>Ave Mujica：初华、祥子、海铃、喵梦、睦或莫缇斯。sumimi：初华与真奈，开启后可两人消除；初华同时满足两队时优先结算 Mujica。</p><p>群体技能 CRYCHIC：祥子、睦、立希、爽世、灯连通消除，莫缇斯不参与。重叠规则先检查户山姐妹羁绊、羽丘三小只，再按 Mujica → CRYCHIC → 丸山彩家族 → RAS → 其他乐队（含 PP） → sumimi 结算，同一角色仅结算一次。独立连通块可同时消除。</p><p>丸山彩家族默认关闭：彩、爱音、七深、绯玛丽、粉蓝发色的 PAREO 连通消除。摩卡落地必定吃掉一个现存食物；里美必定吃掉一个现存海螺包。灯落地有 80% 概率掉一块石头，石头不可食用、不随邻近角色消除；任意灯被消除时带走全场石头。</p><p>睦与莫缇斯各 50% 登场。莫缇斯可能会随机消除一些角色。</p><p>千圣、日菜、纱夜新技能默认关闭：千圣简单模式24%为2×4、5%为3×6，不出现4×8；困难模式32%为2×4、8%为3×6、1%为4×8；日菜下落时每按 W 有 15% 概率发射，每次登场最多一次，仅将独立成员传送到可连接队友的合法位置，无可用目标则不发射；纱夜按 W 原地悬浮，不受重力影响并可支撑角色。</p><p>花音【迷路之子】、【缤纷 PAREO】、【户山明日香】默认关闭。花音左右操作与旋转简单模式各有 30%、困难模式各有 50% 反向；PAREO 粉蓝 40%→彩、黑白 20%→仅 RAS；蓝白→日菜、绿白→麻弥、紫白→伊芙、红黄→千圣，各 10%。所有配色均可参与 RAS，丸山彩家族仅接受粉蓝。明日香与香澄相连触发户山姐妹羁绊，与亚子、六花连通触发羽丘三小只；独立单人池不自动补满。薰下落时闭眼，落定后最高占格距离底部不足 6 格时睁眼。</p><p>普通角色占 1 × 2；美咲与 2 × 2 的米歇尔共享 HHW 的 5 号名额。真白技能开启时头朝下登场，头朝下时自然下落速度为标准速度的 3 倍（困难模式 5 倍），其他姿态正常下落。</p><p>落地 +10；手动加速每格 +1；直落每格 +2；每支乐队消除 +1000 × 当前连锁数。同轮多支乐队分别计分。</p><p>堆积超过棋盘顶端时，本局结束。各乐队独立抽取，按剩余人数加权，所有待抽角色等概率。普通池耗尽独立补满；集齐消除后，相关乐队已无在场副本的成员才返池。CRYCHIC 检查 MyGO 与 Mujica 池。只开 sumimi 时初华与真奈共用可补满双人池；同时开 Mujica 时 sumimi 仅有真奈且不自动补满。</p></details></section>
+        <div class="stage-bottom"><span id="current-label">等待第一位成员登场</span></div>
+        <div class="touch-controls" aria-label="游戏控制"><button data-action="left" aria-label="向左移动">←</button><button data-action="rotate" aria-label="绕头顺时针旋转">Q ↻</button><button data-action="right" aria-label="向右移动">→</button><button data-action="down" aria-label="加速下落">↓</button><button data-action="rotate-back" aria-label="绕头逆时针旋转">E ↺</button><button data-action="skill" aria-label="心：上升一格；纱夜：悬浮；日菜：光波">W 技能</button><button data-action="drop" class="drop-button">直落 ⤓</button></div>
+      </aside>
+    </main>
+
+  </div>
+  <dialog id="settings-dialog" aria-labelledby="settings-title"><form id="settings-form">
+    <div class="dialog-heading"><div><p class="eyebrow">SET THE STAGE</p><h2 id="settings-title">配置你的演出</h2></div><button type="button" class="icon-button" id="close-settings" aria-label="关闭设置">×</button></div>
+    <div class="difficulty-setting"><span id="difficulty-label">游戏模式</span><button type="button" id="difficulty-input" class="difficulty-toggle" value="easy" aria-labelledby="difficulty-label difficulty-name" aria-describedby="difficulty-hint" aria-pressed="false"><strong id="difficulty-name">简单模式</strong><span id="difficulty-hint">点击切换为困难模式</span><span class="difficulty-arrow" aria-hidden="true">⇄</span></button></div><div class="form-grid"><label>网格宽度（列，至少 6）<input id="width-input" type="number" min="6" step="1" value="8" required></label><label>网格高度（行，至少 8）<input id="height-input" type="number" min="8" step="1" value="11" required></label></div>
+    <label class="speed-label">自然移动间隔（ms / 格） <output id="speed-output">700 ms</output><input id="speed-input" type="number" min="1" step="any" required value="700"></label>
+    <p class="settings-note">间隔越小速度越快，仅影响可控制角色的自然移动；消除后的下落速度不变。</p><div class="band-selection-heading"><h3>参战乐队 <small>至少选择一支</small></h3><button type="button" class="text-button" id="select-all">选择全部</button></div><div id="band-options" class="band-options"></div>
+    <h3 class="skills-heading">特殊角色技能 <small>可独立开关</small></h3><div id="skill-options"></div><p id="settings-error" role="alert"></p><p class="settings-note">应用设置会开始新一局。</p>
+    <div class="dialog-actions"><button type="button" class="secondary" id="cancel-settings">取消</button><button type="submit" class="primary">应用并开始</button></div>
+  </form></dialog>
+</body>
+</html>

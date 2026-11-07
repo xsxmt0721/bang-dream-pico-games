@@ -1,0 +1,142 @@
+[
+  {
+    "id": "am-uika",
+    "view": "front",
+    "path": "front/am-uika.png",
+    "width": 249,
+    "height": 512,
+    "visibleHeight": 512,
+    "alpha": true,
+    "source": "originals/am-uika-front.png"
+  },
+  {
+    "id": "am-uika",
+    "view": "side",
+    "path": "side/am-uika.png",
+    "width": 258,
+    "height": 512,
+    "visibleHeight": 512,
+    "alpha": true,
+    "source": "originals/am-uika-side.png"
+  },
+  {
+    "id": "am-sakiko",
+    "view": "front",
+    "path": "front/am-sakiko.png",
+    "width": 329,
+    "height": 512,
+    "visibleHeight": 512,
+    "alpha": true,
+    "source": "originals/am-sakiko-front.png"
+  },
+  {
+    "id": "am-sakiko",
+    "view": "side",
+    "path": "side/am-sakiko.png",
+    "width": 292,
+    "height": 512,
+    "visibleHeight": 512,
+    "alpha": true,
+    "source": "originals/am-sakiko-side.png"
+  },
+  {
+    "id": "am-mutsumi",
+    "view": "front",
+    "path": "front/am-mutsumi.png",
+    "width": 245,
+    "height": 512,
+    "visibleHeight": 512,
+    "alpha": true,
+    "source": "originals/am-mutsumi-front.png"
+  },
+  {
+    "id": "am-mutsumi",
+    "view": "side",
+    "path": "side/am-mutsumi.png",
+    "width": 245,
+    "height": 512,
+    "visibleHeight": 512,
+    "alpha": true,
+    "source": "originals/am-mutsumi-side.png"
+  },
+  {
+    "id": "am-umiri",
+    "view": "front",
+    "path": "front/am-umiri.png",
+    "width": 326,
+    "height": 512,
+    "visibleHeight": 512,
+    "alpha": true,
+    "source": "originals/am-umiri-front.png"
+  },
+  {
+    "id": "am-umiri",
+    "view": "side",
+    "path": "side/am-umiri.png",
+    "width": 336,
+    "height": 512,
+    "visibleHeight": 512,
+    "alpha": true,
+    "source": "originals/am-umiri-side.png"
+  },
+  {
+    "id": "am-nyamu",
+    "view": "front",
+    "path": "front/am-nyamu.png",
+    "width": 301,
+    "height": 512,
+    "visibleHeight": 512,
+    "alpha": true,
+    "source": "originals/am-nyamu-front.png"
+  },
+  {
+    "id": "am-nyamu",
+    "view": "side",
+    "path": "side/am-nyamu.png",
+    "width": 309,
+    "height": 512,
+    "visibleHeight": 512,
+    "alpha": true,
+    "source": "originals/am-nyamu-side.png"
+  },
+  {
+    "id": "am-mortis",
+    "view": "front",
+    "path": "front/am-mortis.png",
+    "width": 232,
+    "height": 512,
+    "visibleHeight": 512,
+    "alpha": true,
+    "source": "originals/am-mortis-front.png"
+  },
+  {
+    "id": "am-mortis",
+    "view": "side",
+    "path": "side/am-mortis.png",
+    "width": 272,
+    "height": 512,
+    "visibleHeight": 512,
+    "alpha": true,
+    "source": "originals/am-mortis-side.png"
+  },
+  {
+    "id": "smm-mana",
+    "view": "front",
+    "path": "front/smm-mana.png",
+    "width": 339,
+    "height": 512,
+    "visibleHeight": 512,
+    "alpha": true,
+    "source": "originals/smm-mana-front.png"
+  },
+  {
+    "id": "smm-mana",
+    "view": "side",
+    "path": "side/smm-mana.png",
+    "width": 321,
+    "height": 512,
+    "visibleHeight": 512,
+    "alpha": true,
+    "source": "originals/smm-mana-side.png"
+  }
+]

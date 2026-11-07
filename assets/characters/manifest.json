@@ -1,0 +1,1550 @@
+[
+  {
+    "source": "ag-himari.jpg",
+    "view": "front",
+    "output": "assets/characters/front/ag-himari.png",
+    "size": [
+      268,
+      512
+    ],
+    "source_bounds": [
+      146,
+      6,
+      615,
+      903
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ag-himari.jpg",
+    "view": "side",
+    "output": "assets/characters/side/ag-himari.png",
+    "size": [
+      245,
+      512
+    ],
+    "source_bounds": [
+      712,
+      9,
+      1138,
+      903
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ag-moka.jpg",
+    "view": "front",
+    "output": "assets/characters/front/ag-moka.png",
+    "size": [
+      269,
+      512
+    ],
+    "source_bounds": [
+      144,
+      7,
+      612,
+      899
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ag-moka.jpg",
+    "view": "side",
+    "output": "assets/characters/side/ag-moka.png",
+    "size": [
+      252,
+      512
+    ],
+    "source_bounds": [
+      695,
+      7,
+      1133,
+      898
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ag-ran.jpg",
+    "view": "front",
+    "output": "assets/characters/front/ag-ran.png",
+    "size": [
+      252,
+      512
+    ],
+    "source_bounds": [
+      151,
+      7,
+      590,
+      900
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ag-ran.jpg",
+    "view": "side",
+    "output": "assets/characters/side/ag-ran.png",
+    "size": [
+      251,
+      512
+    ],
+    "source_bounds": [
+      697,
+      7,
+      1133,
+      899
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ag-tomoe.jpg",
+    "view": "front",
+    "output": "assets/characters/front/ag-tomoe.png",
+    "size": [
+      245,
+      512
+    ],
+    "source_bounds": [
+      147,
+      8,
+      590,
+      936
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ag-tomoe.jpg",
+    "view": "side",
+    "output": "assets/characters/side/ag-tomoe.png",
+    "size": [
+      252,
+      512
+    ],
+    "source_bounds": [
+      681,
+      6,
+      1137,
+      935
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ag-tsugumi.jpg",
+    "view": "front",
+    "output": "assets/characters/front/ag-tsugumi.png",
+    "size": [
+      232,
+      512
+    ],
+    "source_bounds": [
+      171,
+      13,
+      575,
+      906
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ag-tsugumi.jpg",
+    "view": "side",
+    "output": "assets/characters/side/ag-tsugumi.png",
+    "size": [
+      231,
+      512
+    ],
+    "source_bounds": [
+      708,
+      13,
+      1109,
+      905
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "hhw-hagumi.jpg",
+    "view": "front",
+    "output": "assets/characters/front/hhw-hagumi.png",
+    "size": [
+      241,
+      512
+    ],
+    "source_bounds": [
+      171,
+      12,
+      601,
+      926
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "hhw-hagumi.jpg",
+    "view": "side",
+    "output": "assets/characters/side/hhw-hagumi.png",
+    "size": [
+      248,
+      512
+    ],
+    "source_bounds": [
+      675,
+      17,
+      1114,
+      925
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "hhw-kanon.jpg",
+    "view": "front",
+    "output": "assets/characters/front/hhw-kanon.png",
+    "size": [
+      300,
+      512
+    ],
+    "source_bounds": [
+      144,
+      12,
+      657,
+      889
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "hhw-kanon.jpg",
+    "view": "side",
+    "output": "assets/characters/side/hhw-kanon.png",
+    "size": [
+      265,
+      512
+    ],
+    "source_bounds": [
+      685,
+      12,
+      1137,
+      888
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "hhw-kaoru.jpg",
+    "view": "front",
+    "output": "assets/characters/front/hhw-kaoru.png",
+    "size": [
+      203,
+      512
+    ],
+    "source_bounds": [
+      204,
+      6,
+      567,
+      924
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "hhw-kaoru.jpg",
+    "view": "side",
+    "output": "assets/characters/side/hhw-kaoru.png",
+    "size": [
+      282,
+      512
+    ],
+    "source_bounds": [
+      681,
+      22,
+      1176,
+      923
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "hhw-kokoro.jpg",
+    "view": "front",
+    "output": "assets/characters/front/hhw-kokoro.png",
+    "size": [
+      286,
+      512
+    ],
+    "source_bounds": [
+      151,
+      13,
+      650,
+      909
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "hhw-kokoro.jpg",
+    "view": "side",
+    "output": "assets/characters/side/hhw-kokoro.png",
+    "size": [
+      279,
+      512
+    ],
+    "source_bounds": [
+      681,
+      32,
+      1158,
+      909
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "hhw-misaki.jpg",
+    "view": "front",
+    "output": "assets/characters/front/hhw-misaki.png",
+    "size": [
+      225,
+      512
+    ],
+    "source_bounds": [
+      183,
+      13,
+      566,
+      889
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "hhw-misaki.jpg",
+    "view": "side",
+    "output": "assets/characters/side/hhw-misaki.png",
+    "size": [
+      238,
+      512
+    ],
+    "source_bounds": [
+      699,
+      13,
+      1105,
+      888
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mor-mashiro.jpg",
+    "view": "front",
+    "output": "assets/characters/front/mor-mashiro.png",
+    "size": [
+      245,
+      512
+    ],
+    "source_bounds": [
+      165,
+      17,
+      585,
+      897
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mor-mashiro.jpg",
+    "view": "side",
+    "output": "assets/characters/side/mor-mashiro.png",
+    "size": [
+      239,
+      512
+    ],
+    "source_bounds": [
+      693,
+      17,
+      1103,
+      896
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mor-nanami.jpg",
+    "view": "front",
+    "output": "assets/characters/front/mor-nanami.png",
+    "size": [
+      299,
+      512
+    ],
+    "source_bounds": [
+      128,
+      11,
+      647,
+      900
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mor-nanami.jpg",
+    "view": "side",
+    "output": "assets/characters/side/mor-nanami.png",
+    "size": [
+      249,
+      512
+    ],
+    "source_bounds": [
+      739,
+      9,
+      1170,
+      899
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mor-rui.jpg",
+    "view": "front",
+    "output": "assets/characters/front/mor-rui.png",
+    "size": [
+      226,
+      512
+    ],
+    "source_bounds": [
+      193,
+      17,
+      594,
+      928
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mor-rui.jpg",
+    "view": "side",
+    "output": "assets/characters/side/mor-rui.png",
+    "size": [
+      226,
+      512
+    ],
+    "source_bounds": [
+      696,
+      23,
+      1094,
+      927
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mor-toko.jpg",
+    "view": "front",
+    "output": "assets/characters/front/mor-toko.png",
+    "size": [
+      263,
+      512
+    ],
+    "source_bounds": [
+      153,
+      9,
+      612,
+      904
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mor-toko.jpg",
+    "view": "side",
+    "output": "assets/characters/side/mor-toko.png",
+    "size": [
+      255,
+      512
+    ],
+    "source_bounds": [
+      690,
+      11,
+      1134,
+      903
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mor-tsukushi.jpg",
+    "view": "front",
+    "output": "assets/characters/front/mor-tsukushi.png",
+    "size": [
+      286,
+      512
+    ],
+    "source_bounds": [
+      165,
+      14,
+      650,
+      885
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mor-tsukushi.jpg",
+    "view": "side",
+    "output": "assets/characters/side/mor-tsukushi.png",
+    "size": [
+      231,
+      512
+    ],
+    "source_bounds": [
+      717,
+      8,
+      1111,
+      885
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mygo-anon.jpg",
+    "view": "front",
+    "output": "assets/characters/front/mygo-anon.png",
+    "size": [
+      254,
+      512
+    ],
+    "source_bounds": [
+      189,
+      12,
+      593,
+      827
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mygo-anon.jpg",
+    "view": "side",
+    "output": "assets/characters/side/mygo-anon.png",
+    "size": [
+      268,
+      512
+    ],
+    "source_bounds": [
+      675,
+      12,
+      1100,
+      827
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mygo-rana.jpg",
+    "view": "front",
+    "output": "assets/characters/front/mygo-rana.png",
+    "size": [
+      280,
+      512
+    ],
+    "source_bounds": [
+      184,
+      14,
+      626,
+      825
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mygo-rana.jpg",
+    "view": "side",
+    "output": "assets/characters/side/mygo-rana.png",
+    "size": [
+      258,
+      512
+    ],
+    "source_bounds": [
+      686,
+      12,
+      1095,
+      827
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mygo-soyo.jpg",
+    "view": "front",
+    "output": "assets/characters/front/mygo-soyo.png",
+    "size": [
+      261,
+      512
+    ],
+    "source_bounds": [
+      192,
+      19,
+      604,
+      829
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mygo-soyo.jpg",
+    "view": "side",
+    "output": "assets/characters/side/mygo-soyo.png",
+    "size": [
+      266,
+      512
+    ],
+    "source_bounds": [
+      735,
+      10,
+      1160,
+      829
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mygo-taki.jpg",
+    "view": "front",
+    "output": "assets/characters/front/mygo-taki.png",
+    "size": [
+      258,
+      512
+    ],
+    "source_bounds": [
+      214,
+      12,
+      616,
+      813
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mygo-taki.jpg",
+    "view": "side",
+    "output": "assets/characters/side/mygo-taki.png",
+    "size": [
+      260,
+      512
+    ],
+    "source_bounds": [
+      693,
+      19,
+      1097,
+      816
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mygo-tomori.jpg",
+    "view": "front",
+    "output": "assets/characters/front/mygo-tomori.png",
+    "size": [
+      258,
+      512
+    ],
+    "source_bounds": [
+      205,
+      12,
+      617,
+      831
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "mygo-tomori.jpg",
+    "view": "side",
+    "output": "assets/characters/side/mygo-tomori.png",
+    "size": [
+      245,
+      512
+    ],
+    "source_bounds": [
+      704,
+      13,
+      1095,
+      831
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "pp-aya.jpg",
+    "view": "front",
+    "output": "assets/characters/front/pp-aya.png",
+    "size": [
+      250,
+      512
+    ],
+    "source_bounds": [
+      167,
+      13,
+      602,
+      906
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "pp-aya.jpg",
+    "view": "side",
+    "output": "assets/characters/side/pp-aya.png",
+    "size": [
+      243,
+      512
+    ],
+    "source_bounds": [
+      698,
+      13,
+      1120,
+      905
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "pp-chisato.jpg",
+    "view": "front",
+    "output": "assets/characters/front/pp-chisato.png",
+    "size": [
+      257,
+      512
+    ],
+    "source_bounds": [
+      149,
+      13,
+      594,
+      901
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "pp-chisato.jpg",
+    "view": "side",
+    "output": "assets/characters/side/pp-chisato.png",
+    "size": [
+      258,
+      512
+    ],
+    "source_bounds": [
+      687,
+      14,
+      1133,
+      901
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "pp-hina.jpg",
+    "view": "front",
+    "output": "assets/characters/front/pp-hina.png",
+    "size": [
+      265,
+      512
+    ],
+    "source_bounds": [
+      151,
+      7,
+      611,
+      899
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "pp-hina.jpg",
+    "view": "side",
+    "output": "assets/characters/side/pp-hina.png",
+    "size": [
+      247,
+      512
+    ],
+    "source_bounds": [
+      706,
+      7,
+      1135,
+      898
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "pp-ive.jpg",
+    "view": "front",
+    "output": "assets/characters/front/pp-ive.png",
+    "size": [
+      245,
+      512
+    ],
+    "source_bounds": [
+      169,
+      16,
+      596,
+      911
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "pp-ive.jpg",
+    "view": "side",
+    "output": "assets/characters/side/pp-ive.png",
+    "size": [
+      241,
+      512
+    ],
+    "source_bounds": [
+      696,
+      13,
+      1117,
+      911
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "pp-maya.jpg",
+    "view": "front",
+    "output": "assets/characters/front/pp-maya.png",
+    "size": [
+      256,
+      512
+    ],
+    "source_bounds": [
+      159,
+      7,
+      602,
+      895
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "pp-maya.jpg",
+    "view": "side",
+    "output": "assets/characters/side/pp-maya.png",
+    "size": [
+      249,
+      512
+    ],
+    "source_bounds": [
+      692,
+      7,
+      1123,
+      894
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ppp-arisa.jpg",
+    "view": "front",
+    "output": "assets/characters/front/ppp-arisa.png",
+    "size": [
+      320,
+      512
+    ],
+    "source_bounds": [
+      140,
+      13,
+      680,
+      878
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ppp-arisa.jpg",
+    "view": "side",
+    "output": "assets/characters/side/ppp-arisa.png",
+    "size": [
+      251,
+      512
+    ],
+    "source_bounds": [
+      712,
+      16,
+      1134,
+      878
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ppp-kasumi.jpg",
+    "view": "front",
+    "output": "assets/characters/front/ppp-kasumi.png",
+    "size": [
+      299,
+      512
+    ],
+    "source_bounds": [
+      130,
+      13,
+      643,
+      893
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ppp-kasumi.jpg",
+    "view": "side",
+    "output": "assets/characters/side/ppp-kasumi.png",
+    "size": [
+      287,
+      512
+    ],
+    "source_bounds": [
+      687,
+      16,
+      1177,
+      892
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ppp-otae.jpg",
+    "view": "front",
+    "output": "assets/characters/front/ppp-otae.png",
+    "size": [
+      256,
+      512
+    ],
+    "source_bounds": [
+      150,
+      15,
+      598,
+      913
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ppp-otae.jpg",
+    "view": "side",
+    "output": "assets/characters/side/ppp-otae.png",
+    "size": [
+      246,
+      512
+    ],
+    "source_bounds": [
+      698,
+      17,
+      1127,
+      913
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ppp-rimiri.jpg",
+    "view": "front",
+    "output": "assets/characters/front/ppp-rimiri.png",
+    "size": [
+      275,
+      512
+    ],
+    "source_bounds": [
+      161,
+      13,
+      625,
+      880
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ppp-rimiri.jpg",
+    "view": "side",
+    "output": "assets/characters/side/ppp-rimiri.png",
+    "size": [
+      249,
+      512
+    ],
+    "source_bounds": [
+      700,
+      13,
+      1120,
+      880
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ppp-saaya.jpg",
+    "view": "front",
+    "output": "assets/characters/front/ppp-saaya.png",
+    "size": [
+      229,
+      512
+    ],
+    "source_bounds": [
+      196,
+      13,
+      609,
+      938
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ppp-saaya.jpg",
+    "view": "side",
+    "output": "assets/characters/side/ppp-saaya.png",
+    "size": [
+      316,
+      512
+    ],
+    "source_bounds": [
+      695,
+      14,
+      1264,
+      938
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ras-chuchu.jpg",
+    "view": "front",
+    "output": "assets/characters/front/ras-chuchu.png",
+    "size": [
+      272,
+      512
+    ],
+    "source_bounds": [
+      129,
+      8,
+      605,
+      906
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ras-chuchu.jpg",
+    "view": "side",
+    "output": "assets/characters/side/ras-chuchu.png",
+    "size": [
+      257,
+      512
+    ],
+    "source_bounds": [
+      704,
+      8,
+      1153,
+      904
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ras-layer.jpg",
+    "view": "front",
+    "output": "assets/characters/front/ras-layer.png",
+    "size": [
+      236,
+      512
+    ],
+    "source_bounds": [
+      177,
+      19,
+      595,
+      927
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ras-layer.jpg",
+    "view": "side",
+    "output": "assets/characters/side/ras-layer.png",
+    "size": [
+      230,
+      512
+    ],
+    "source_bounds": [
+      706,
+      17,
+      1114,
+      927
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ras-lock.jpg",
+    "view": "front",
+    "output": "assets/characters/front/ras-lock.png",
+    "size": [
+      220,
+      512
+    ],
+    "source_bounds": [
+      188,
+      19,
+      559,
+      886
+    ],
+    "visible_height": 512,
+    "previous_source": "ras-lock.jpg",
+    "edit": {
+      "tool": "image_gen.imagegen",
+      "date": "2026-10-29",
+      "description": "Haneoka first-year uniform matching Ako and Anon: green/gold tie and skirt",
+      "archived_original": "assets/characters/unused/pre-haneoka-first-year-20261029/front/ras-lock.png",
+      "archived_sha256": "37fdf4daf26bfe47989da703db22f38a5dda7719665052dcb28c8130b9340ac0"
+    }
+  },
+  {
+    "source": "ras-lock.jpg",
+    "view": "side",
+    "output": "assets/characters/side/ras-lock.png",
+    "size": [
+      236,
+      512
+    ],
+    "source_bounds": [
+      694,
+      17,
+      1093,
+      885
+    ],
+    "visible_height": 512,
+    "previous_source": "ras-lock.jpg",
+    "edit": {
+      "tool": "image_gen.imagegen",
+      "date": "2026-10-29",
+      "description": "Haneoka first-year uniform matching Ako and Anon: green/gold tie and skirt",
+      "archived_original": "assets/characters/unused/pre-haneoka-first-year-20261029/side/ras-lock.png",
+      "archived_sha256": "4afcd6b6ae19db18714efd201c6f25d32155a95b3a6242737e6cd7f758fbac51"
+    }
+  },
+  {
+    "source": "ras-masking.jpg",
+    "view": "front",
+    "output": "assets/characters/front/ras-masking.png",
+    "size": [
+      265,
+      512
+    ],
+    "source_bounds": [
+      163,
+      17,
+      627,
+      914
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ras-masking.jpg",
+    "view": "side",
+    "output": "assets/characters/side/ras-masking.png",
+    "size": [
+      243,
+      512
+    ],
+    "source_bounds": [
+      701,
+      17,
+      1126,
+      914
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ras-pareo.jpg",
+    "view": "front",
+    "output": "assets/characters/front/ras-pareo.png",
+    "size": [
+      420,
+      512
+    ],
+    "source_bounds": [
+      40,
+      17,
+      781,
+      920
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "ras-pareo.jpg",
+    "view": "side",
+    "output": "assets/characters/side/ras-pareo.png",
+    "size": [
+      272,
+      512
+    ],
+    "source_bounds": [
+      770,
+      19,
+      1247,
+      920
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "rose-ako.jpg",
+    "view": "front",
+    "output": "assets/characters/front/rose-ako.png",
+    "size": [
+      394,
+      512
+    ],
+    "source_bounds": [
+      52,
+      7,
+      735,
+      895
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "rose-ako.jpg",
+    "view": "side",
+    "output": "assets/characters/side/rose-ako.png",
+    "size": [
+      268,
+      512
+    ],
+    "source_bounds": [
+      761,
+      7,
+      1224,
+      894
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "rose-rinko.jpg",
+    "view": "front",
+    "output": "assets/characters/front/rose-rinko.png",
+    "size": [
+      221,
+      512
+    ],
+    "source_bounds": [
+      173,
+      13,
+      557,
+      907
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "rose-rinko.jpg",
+    "view": "side",
+    "output": "assets/characters/side/rose-rinko.png",
+    "size": [
+      249,
+      512
+    ],
+    "source_bounds": [
+      682,
+      13,
+      1115,
+      907
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "rose-risa.jpg",
+    "view": "front",
+    "output": "assets/characters/front/rose-risa.png",
+    "size": [
+      275,
+      512
+    ],
+    "source_bounds": [
+      133,
+      7,
+      631,
+      936
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "rose-risa.jpg",
+    "view": "side",
+    "output": "assets/characters/side/rose-risa.png",
+    "size": [
+      302,
+      512
+    ],
+    "source_bounds": [
+      707,
+      8,
+      1253,
+      935
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "rose-sayo.jpg",
+    "view": "front",
+    "output": "assets/characters/front/rose-sayo.png",
+    "size": [
+      240,
+      512
+    ],
+    "source_bounds": [
+      153,
+      13,
+      572,
+      909
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "rose-sayo.jpg",
+    "view": "side",
+    "output": "assets/characters/side/rose-sayo.png",
+    "size": [
+      252,
+      512
+    ],
+    "source_bounds": [
+      684,
+      14,
+      1123,
+      909
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "rose-yukina.jpg",
+    "view": "front",
+    "output": "assets/characters/front/rose-yukina.png",
+    "size": [
+      255,
+      512
+    ],
+    "source_bounds": [
+      134,
+      7,
+      579,
+      903
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "rose-yukina.jpg",
+    "view": "side",
+    "output": "assets/characters/side/rose-yukina.png",
+    "size": [
+      269,
+      512
+    ],
+    "source_bounds": [
+      677,
+      7,
+      1146,
+      903
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "script drawing based on reference",
+    "view": "front",
+    "output": "assets/characters/front/hhw-michelle.png",
+    "visible_height": 512,
+    "collision": [
+      2,
+      2
+    ]
+  },
+  {
+    "source": "imagegen based on official character and existing PICO references",
+    "view": "front",
+    "output": "assets/characters/front/am-uika.png",
+    "size": [
+      249,
+      512
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "imagegen based on official character and existing PICO references",
+    "view": "side",
+    "output": "assets/characters/side/am-uika.png",
+    "size": [
+      258,
+      512
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "imagegen based on official character and existing PICO references",
+    "view": "front",
+    "output": "assets/characters/front/am-sakiko.png",
+    "size": [
+      329,
+      512
+    ],
+    "visible_height": 512,
+    "previous_source": "imagegen based on official character and existing PICO references",
+    "edit": {
+      "tool": "image_gen.imagegen",
+      "date": "2026-10-29",
+      "description": "Haneoka first-year uniform matching Ako and Anon: green/gold tie and skirt",
+      "archived_original": "assets/characters/unused/pre-haneoka-first-year-20261029/front/am-sakiko.png",
+      "archived_sha256": "280e3a04312684932d83b27c5d46e6d9fdb111684da05fe33eea310ea9e2077e"
+    }
+  },
+  {
+    "source": "imagegen based on official character and existing PICO references",
+    "view": "side",
+    "output": "assets/characters/side/am-sakiko.png",
+    "size": [
+      292,
+      512
+    ],
+    "visible_height": 512,
+    "previous_source": "imagegen based on official character and existing PICO references",
+    "edit": {
+      "tool": "image_gen.imagegen",
+      "date": "2026-10-29",
+      "description": "Haneoka first-year uniform matching Ako and Anon: green/gold tie and skirt",
+      "archived_original": "assets/characters/unused/pre-haneoka-first-year-20261029/side/am-sakiko.png",
+      "archived_sha256": "db632f710534a44cf2bdd1f051e0d78b221fb405d49f240ca4c41a06f9d04e8b"
+    }
+  },
+  {
+    "source": "imagegen based on official character and existing PICO references",
+    "view": "front",
+    "output": "assets/characters/front/am-mutsumi.png",
+    "size": [
+      245,
+      512
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "imagegen based on official character and existing PICO references",
+    "view": "side",
+    "output": "assets/characters/side/am-mutsumi.png",
+    "size": [
+      245,
+      512
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "imagegen based on official character and existing PICO references",
+    "view": "front",
+    "output": "assets/characters/front/am-umiri.png",
+    "size": [
+      326,
+      512
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "imagegen based on official character and existing PICO references",
+    "view": "side",
+    "output": "assets/characters/side/am-umiri.png",
+    "size": [
+      336,
+      512
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "imagegen based on official character and existing PICO references",
+    "view": "front",
+    "output": "assets/characters/front/am-nyamu.png",
+    "size": [
+      301,
+      512
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "imagegen based on official character and existing PICO references",
+    "view": "side",
+    "output": "assets/characters/side/am-nyamu.png",
+    "size": [
+      309,
+      512
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "imagegen based on official character and existing PICO references",
+    "view": "front",
+    "output": "assets/characters/front/am-mortis.png",
+    "size": [
+      232,
+      512
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "imagegen based on official character and existing PICO references",
+    "view": "side",
+    "output": "assets/characters/side/am-mortis.png",
+    "size": [
+      272,
+      512
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "imagegen based on official character and existing PICO references",
+    "view": "front",
+    "output": "assets/characters/front/smm-mana.png",
+    "size": [
+      339,
+      512
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "imagegen based on official character and existing PICO references",
+    "view": "side",
+    "output": "assets/characters/side/smm-mana.png",
+    "size": [
+      321,
+      512
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "imagegen based on character and PICO references",
+    "view": "front",
+    "output": "assets/characters/front/hhw-kaoru-sleep.png",
+    "size": [
+      203,
+      512
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "imagegen based on character and PICO references",
+    "view": "front",
+    "output": "assets/characters/front/toyama-asuka.png",
+    "size": [
+      271,
+      512
+    ],
+    "visible_height": 512,
+    "previous_source": "imagegen based on character and PICO references",
+    "edit": {
+      "tool": "image_gen.imagegen",
+      "date": "2026-10-29",
+      "description": "Haneoka first-year uniform matching Ako and Anon: green/gold tie and skirt",
+      "archived_original": "assets/characters/unused/pre-haneoka-first-year-20261029/front/toyama-asuka.png",
+      "archived_sha256": "650023bb5bbff0a10c7a1f8955d48c15287f5ae7ab8f80b4169ec6ed0d956631"
+    }
+  },
+  {
+    "source": "deterministic pixel hair recolor",
+    "view": "front",
+    "output": "assets/characters/front/ras-pareo-black-white.png",
+    "size": [
+      420,
+      512
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "deterministic pixel hair recolor",
+    "view": "front",
+    "output": "assets/characters/front/ras-pareo-green-white.png",
+    "size": [
+      420,
+      512
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "deterministic pixel hair recolor",
+    "view": "front",
+    "output": "assets/characters/front/ras-pareo-yellow-red.png",
+    "size": [
+      420,
+      512
+    ],
+    "visible_height": 512
+  },
+  {
+    "source": "imagegen hair-color edit; Hina cyan-blue #55DDEE",
+    "view": "front",
+    "output": "assets/characters/front/ras-pareo-blue-white.png",
+    "size": [
+      420,
+      512
+    ],
+    "visible_height": 512,
+    "previous_source": "deterministic pixel hair recolor",
+    "edit": {
+      "tool": "image_gen.imagegen",
+      "date": "2026-10-29",
+      "description": "Hina cyan-blue #55DDEE hair; white regions preserved",
+      "archived_original": "assets/characters/unused/pre-haneoka-first-year-20261029/front/ras-pareo-blue-white.png",
+      "archived_sha256": "e408812b6472d0c45729399e2d688c35453b7975c58afde65c5a26ce5461739e"
+    }
+  },
+  {
+    "source": "imagegen edit of ras-pareo-green-white.png; white center, Eve lavender #DDBBFF",
+    "view": "front",
+    "output": "assets/characters/front/ras-pareo-purple-white.png",
+    "size": [
+      420,
+      512
+    ],
+    "visible_height": 512
+  }
+]
