@@ -25,5 +25,4 @@ const sharp=require('sharp'),fs=require('fs');
   }
   await sharp(out,{raw:info}).png().toFile('assets/characters/front/ras-pareo-'+name+'.png');
  }
- await sharp(mask.map(v=>v?255:0),{raw:{width:info.width,height:info.height,channels:1}}).png().toFile('assets/characters/review-skills/pareo-hair-mask.png');
 })();

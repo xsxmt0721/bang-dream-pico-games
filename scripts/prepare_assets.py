@@ -1,6 +1,6 @@
 """Split user character sheets and remove edge-connected black backgrounds.
 
-Usage: python scripts/prepare_assets.py [--source pico-png-source]
+Usage: python scripts/prepare_assets.py --source <source-directory>
        [--archive-originals]
 Requires Pillow and numpy. Does not send images to any service.
 """
@@ -113,7 +113,7 @@ def contact_sheet(paths, destination):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--source', type=Path, default=ROOT / 'pico-png-source')
+    parser.add_argument('--source', type=Path, required=True)
     parser.add_argument('--archive-originals', action='store_true')
     args = parser.parse_args()
     source = args.source.resolve()
